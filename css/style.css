@@ -1,0 +1,219 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #130e27;
+}
+
+.box{
+    width: 1200px;
+    margin: 0 auto;
+    background-image: url("../images/Layer13.png");
+    background-repeat: no-repeat;    
+}
+
+.width_bar{
+    width: 1010px;
+    margin: 0 auto;  
+}
+
+.nav{
+    padding-top: 30px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul.btn__nav{
+    list-style: none;
+    display: flex;       
+}
+
+ul.btn__nav li a{
+    box-sizing: border-box;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 7px;
+}
+
+ul.btn__nav li a:hover{
+    border-radius: 10%;
+    background: #130e27;
+   
+}
+
+.title_first {
+    font-size: 80px;
+    font-family: sans-serif;
+    color: rgb(19, 14, 39);
+    line-height: 80px;
+}
+.title_second{
+    font-size: 80px;
+    font-family: sans-serif;
+    color: #fff;
+    line-height: 80px;
+}
+.nav_text{
+    max-width: 465px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #fff;
+    line-height: 28px;
+    padding-bottom: 160px;
+    padding-top: 60px;
+}
+.box_color{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #130e27;
+}
+.services_title{
+    display: flex;   
+}
+.services_title p{
+    padding: 45px 15px 90px 0;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #130e27;
+}
+.services_title p:first-child{
+    color: #c62314;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+.item{
+    max-width: 170px;
+    text-align: center;
+}
+i.fa{
+    color: #130e27;
+    font-size: 130px;
+    padding-bottom: 40px; 
+}
+.item_text{
+    color: #262626;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.box_color_content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 45px;
+}
+.box_color_text{
+    max-width: 565px;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: sans-serif;
+    color: #fff;
+}
+.box_color_content a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 22px;
+    color: #fff;
+    padding: 20px 70px;
+    background-color: #c62314;
+    border-radius: 3%;
+}
+.pricing{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #efefef;    
+}
+.pricing_container{
+    width: 1010px;
+    margin: 0 auto;
+    padding: 65px 0;     
+}
+.price_title {
+    color: #130e27;
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    width: 320px;
+    height: 390px;
+    background-color: #fff;
+    border-radius: 5%;
+    text-align: center;
+}
+.card h4{
+    color: #161616;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.card a{
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    font-family: sans-serif;
+    padding: 15px 60px;
+    background-color: #130e27;
+    border-radius: 3%;
+}
+.card a:hover{
+    background-color: #c62314;
+}
+.price {
+    font-family: sans-serif;
+    color:#c62314;
+    font-size: 50px;
+    font-weight: 900;
+}
+.price_prava {
+    padding: 15px 0;
+    list-style: none;
+    color: #4c4c4c;
+    font-size: 18px;
+    line-height: 26px;
+    font-family: sans-serif;
+    padding-bottom: 40px;
+}
+.container_footer{
+    width: 1010px;
+    margin: 0 auto;
+}
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.footer_txt{
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-top: 22px;
+}
+.footer_txt span{
+    color: #ae2017;
+}
+
